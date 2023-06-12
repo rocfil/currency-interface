@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("/img/candles.jpg");
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  background-color: aliceblue;
+  color: black;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.currency-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.currency-container select {
+  padding: 12px;
+  background-color: rgb(195, 195, 195);
+}
+
+.currency-container input {
+  border: 0;
+  background: transparent;
+  font-size: 22px;
+  text-align: right;
+  color: black;
+}
+
+.exchange-rate {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+select:focus,
+input:focus {
+  outline: 0;
+  border: 1px solid black;
+}
